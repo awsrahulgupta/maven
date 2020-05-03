@@ -29,7 +29,7 @@ pipeline
             steps
             {
                 git 'https://github.com/awsrahulgupta/functionaltesting.git'
-    sh label: '', script: 'java -jar /home/ubuntu/.jenkins/workspace/Scripted-Pipeline/testing.jar''
+    sh label: '', script: 'java -jar /home/ubuntu/.jenkins/workspace/Scripted-Pipeline/testing.jar'
             }
         }
     }
